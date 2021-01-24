@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es6"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "rootDir": ".",
+    "paths": {
+      "$components/*": [
+        "src/components/*"
+      ],
+      "$domain/*": [
+        "src/domain/*"
+      ],
+      "$utils/*": [
+        "src/utils/*"
+      ],
+      "$views/*": [
+        "src/views/*"
+      ],
+      "$icons/*": [
+        "src/icons/*"
+      ],
+      "$imgs/*": [
+        "src/imgs/*"
+      ],
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ]
+}

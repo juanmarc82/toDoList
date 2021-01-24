@@ -1,3 +1,22 @@
+# Dependency directories
+node_modules/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# MAC
+*.DS_Store
+
+# VSCODE
+*.vscode/*
+!.vscode/launch.json
+
 # Build and Release Folders
 bin-debug/
 bin-release/
@@ -13,6 +32,3 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
